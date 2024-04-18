@@ -2,11 +2,8 @@ num = int(input("Enter the integer (0 to 100): "))
 sum = 0
 print(num)
 
-while num <= 100:
-    sum = 1 + num
-    num - 1
-    if num >= 0:
-        break
+while num < 101:
+    print(num)
+    sum = num + 1
 
-print(num)
 print(sum)
